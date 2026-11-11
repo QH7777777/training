@@ -1,0 +1,9 @@
+<mujoco model="stage5_ramp_and_drop">
+  <asset>
+    <hfield name="terrain" file="terrain.png" size="5 0.5 0.32 0.01"/>
+  </asset>
+  <worldbody>
+    <geom name="course_terrain" type="hfield" hfield="terrain"
+          pos="3 0 0" rgba="0.5 0.6 0.65 1" condim="3"/>
+  </worldbody>
+</mujoco>

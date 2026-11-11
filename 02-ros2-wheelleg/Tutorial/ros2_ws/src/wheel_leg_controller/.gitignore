@@ -1,0 +1,12 @@
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+install/
+log/
+stage*_validation/
+*.db3
+*.mcap
+*.webm
+*.mp4

@@ -1,0 +1,56 @@
+{
+  "mode": "lqr",
+  "command_speed": 0.2,
+  "target_length": 0.1,
+  "samples": 12000,
+  "duration": 23.998,
+  "params": [
+    "cmd_timeout:=60.0"
+  ],
+  "sim_params": [
+    "robot_xml:=/home/qijingbo/Documents/Codex/2026-11-09/https-gcn3meqgosqj-feishu-cn-wiki-pvnbwcoibitpsbkzc57crrzlntf/work/stage5_course/robot.xml"
+  ],
+  "right_speed": {
+    "mean": 0.22118198306759354,
+    "min": -1.8484801417240013,
+    "max": 1.1840526426762845,
+    "max_error": 2.0484801417240015,
+    "mean_absolute_error": 0.11347954530670315,
+    "relative_mae": 0.5673977265335157
+  },
+  "left_speed": {
+    "mean": 0.22567507915133997,
+    "min": -1.7336339276778165,
+    "max": 1.1427320893321253,
+    "max_error": 1.9336339276778165,
+    "mean_absolute_error": 0.11170083563594503,
+    "relative_mae": 0.5585041781797251
+  },
+  "right_length": {
+    "mean": 0.09985987230964631,
+    "min": 0.08776562660560912,
+    "max": 0.11443840402228055,
+    "max_error": 0.01443840402228054,
+    "mean_absolute_error": 0.002164832250293248,
+    "relative_mae": null
+  },
+  "left_length": {
+    "mean": 0.10000376021230457,
+    "min": 0.09300268129647796,
+    "max": 0.11905431868849517,
+    "max_error": 0.019054318688495164,
+    "mean_absolute_error": 0.002150422438582489,
+    "relative_mae": null
+  },
+  "pitch": {
+    "mean": -0.015598309791213554,
+    "min": -0.06922377680545197,
+    "max": 0.10294828731225153,
+    "max_error": 0.10294828731225153,
+    "mean_absolute_error": 0.018906612738224186,
+    "relative_mae": null
+  },
+  "travel_distance_m": 4.545084203196312,
+  "max_abs_pitch_deg": 6.473708731747433,
+  "stage5_pass": false
+}

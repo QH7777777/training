@@ -1,0 +1,54 @@
+{
+  "mode": "lqr",
+  "command_speed": 0.2,
+  "target_length": 0.1,
+  "samples": 11000,
+  "duration": 21.998,
+  "params": [
+    "cmd_timeout:=60.0"
+  ],
+  "sim_params": [],
+  "right_speed": {
+    "mean": 0.2531186494455508,
+    "min": 0.2087391221565644,
+    "max": 0.38544523835461986,
+    "max_error": 0.18544523835461985,
+    "mean_absolute_error": 0.05311864944555046,
+    "relative_mae": 0.2655932472277523
+  },
+  "left_speed": {
+    "mean": 0.25311906871901135,
+    "min": 0.20873940152879142,
+    "max": 0.3854460357374269,
+    "max_error": 0.1854460357374269,
+    "mean_absolute_error": 0.053119068719011266,
+    "relative_mae": 0.2655953435950563
+  },
+  "right_length": {
+    "mean": 0.09845604453763541,
+    "min": 0.09815746252233577,
+    "max": 0.0985337536438008,
+    "max_error": 0.0018425374776642328,
+    "mean_absolute_error": 0.0015439554623645196,
+    "relative_mae": null
+  },
+  "left_length": {
+    "mean": 0.09845621266631545,
+    "min": 0.09815764129493346,
+    "max": 0.09853391808161696,
+    "max_error": 0.001842358705066549,
+    "mean_absolute_error": 0.0015437873336846858,
+    "relative_mae": null
+  },
+  "pitch": {
+    "mean": -0.016777001705749868,
+    "min": -0.02484448111953474,
+    "max": -0.013903697920658148,
+    "max_error": 0.02484448111953474,
+    "mean_absolute_error": 0.016777001705749868,
+    "relative_mae": null
+  },
+  "travel_distance_m": 6.7674339795266505,
+  "max_abs_pitch_deg": 30.332594891695337,
+  "stage5_pass": false
+}
